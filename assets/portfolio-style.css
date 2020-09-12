@@ -15,10 +15,21 @@
 body {
     font-family: 'Open Sans', 'Gill Sans', sans-serif;
 }
-h1 h2 {
+h1 {
     font-family: 'Barlow Condensed', sans-serif;
     color:#ff8d0a;
+    font-size: 40px;
 }
+h2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color:#ff8d0a;
+    font-size: 40px;
+    font-weight: 400;
+}
+h3 {
+    font-family: 'Open Sans', 'Gill Sans', sans-serif;
+    font-size: 24px;
+  }
 
 /*Header*/
 
@@ -32,7 +43,6 @@ header {
 }
 
 header h2 {
-  font-size: 36px;
   color: var(--orange);
   margin: 0;
 }
@@ -88,6 +98,7 @@ header nav ul li:hover{
     background-color: rgba(300, 300, 300, .5);
     border-left: #ff8d0a 10px solid;
     display: flex;
+    font-family: 'Open Sans', 'Gill Sans', sans-serif;
 
   }
   .hero-box .inner {
@@ -95,7 +106,8 @@ header nav ul li:hover{
       margin:auto;
       padding:0 10px 0 0;
   }
+
 /*hero style end*/
 /*main body start*/
 
-.side-header
+.side-header {}
