@@ -4,7 +4,13 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+  /*roots*/
+  :root {
+    --orange:#ff8d0a;
+    
+    --darkorange:#e05e00;
+    } 
+
 /* general*/
 body {
     font-family: 'Open Sans', 'Gill Sans', sans-serif;
@@ -27,7 +33,7 @@ header {
 
 header h2 {
   font-size: 36px;
-  color: #ff8d0a;
+  color: var(--darkorange);
   margin: 0;
 }
 header a{
@@ -58,9 +64,24 @@ header nav ul li {
 
 header nav ul li:hover{
     margin: 0 30px;
-    background-color: #ff8d0a;
-    border: 2px solid #ff8d0a;
+    background-color: var(--orange);
+    border: 2px solid var(--orange);
     border-radius: 20px;
   }
 
+/* Hero Style Start */
+.hero {
+    background-image: url('../assets/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
+  .hero-box {
+      text-align:right;
+      padding: 20px;
+      align-items: flex-end;
+  }
