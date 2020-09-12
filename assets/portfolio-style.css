@@ -53,7 +53,7 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 0 30px;
+    margin: 0 10px;
     padding:5px 10px;
     font-size: 18px;
     border: 2px solid whitesmoke;
@@ -67,6 +67,7 @@ header nav ul li:hover{
     border: 2px solid var(--orange);
     border-radius: 20px;
   }
+/*end header*/
 
 /* Hero Style Start */
 .hero {
@@ -94,3 +95,7 @@ header nav ul li:hover{
       margin:auto;
       padding:0 10px 0 0;
   }
+/*hero style end*/
+/*main body start*/
+
+.side-header
