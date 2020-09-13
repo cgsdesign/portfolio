@@ -18,12 +18,12 @@ body {
 }
 h1 {
     font-family: 'Barlow Condensed', sans-serif;
-    color:#ff8d0a;
-    font-size: 40px;
+    color: var(--orange);
+    font-size: 44px;
 }
 h2 {
     font-family: 'Barlow Condensed', sans-serif;
-    color:#ff8d0a;
+    color: var(--orange);
     font-size: 40px;
     font-weight: 400;
 }
@@ -33,7 +33,7 @@ h3 {
 }
 h4 {
     font-family: 'Barlow Condensed', sans-serif;
-    color:#ff8d0a;
+    color: var(--orange);
     font-size: 16px;
     font-weight: 400;
 }
@@ -55,10 +55,12 @@ header h2 {
   color: var(--orange);
   margin: 0;
 }
+
 header a{
     text-decoration: none;
     color: black;
 }
+
 header nav {
     margin: 7px 0;
 }
@@ -104,7 +106,7 @@ header nav ul li:hover{
     margin: 100px 0 0 0;
     padding: 0 5% 0 0;
     background-color: rgba(300, 300, 300, .5);
-    border-left: #ff8d0a 10px solid;
+    border-left:  var(--orange) 10px solid;
     font-family: 'Open Sans', 'Gill Sans', sans-serif;
     display: flex;
   }
@@ -200,7 +202,7 @@ section {
     padding: 5px 7px 5px 7px;
     margin:0;
     background-color: rgba(300, 300, 300, .9);
-    border-right: #ff8d0a 10px solid;
+    border-right:  var(--orange) 10px solid;
     max-height: 30px;
   }
 
@@ -236,14 +238,9 @@ section {
 .contact ul li h3 a:hover{
     color: var(--orange);
   }
-
-
-
 /*main "computer size" body end*/
 
-
-
-/* mediaqueries by size */
+/* _______________________mediaqueries by size_________________________ */
 @media screen and (max-width: 980px) {
     /*hero*/
     .hero {

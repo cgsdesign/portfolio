@@ -2,7 +2,7 @@
 ​
 ## Creating a Clear and Responsive Personal Portfolio
 
-### Live site at [Horiseon Service Challenge](https://cgsdesign.github.io/portfolio/)
+### Live site at [CG Sibley Design](https://cgsdesign.github.io/portfolio/)
 ​
 ​For this project I created a personal webpage for my portfolio. The goal was to create a clear and concise page to describe me, show my work, and allow others to contact me.
 The branding follows my personal print collateral. The page is designed to be fully responsive and intuitive in order to bring in recruiters and future employers.​
