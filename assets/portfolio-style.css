@@ -207,9 +207,39 @@ section {
   .works-grid-item .title h3{
     font-size:18px;
   }
-/*main body end*/
+  
+/*Contact start*/
+.contact {
+    margin: 7px 0;
+}
 
-/*footer start*/
+.contact ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    list-style: none;
+}
+
+.contact ul li {
+    margin: 0 14px;
+    padding:5px 10px;
+    font-size: 18px;
+    text-decoration:none;
+}
+
+.contact ul li h3 a{
+    text-decoration:none;
+    color: black;
+  }
+.contact ul li h3 a:hover{
+    color: var(--orange);
+  }
+
+
+
+/*main "computer size" body end*/
+
 
 
 /* mediaqueries by size */
@@ -246,6 +276,9 @@ section {
     }
     .side-header {     
         padding-right: 0px;
+    }    
+    .contact ul {
+        justify-content: center;
     }
 }
 
@@ -270,4 +303,7 @@ section {
         grid-column: 1/3; 
         grid-row: 1/3; 
     }
+    .contact ul li h3{
+        font-size:14px;
+      }
 }
