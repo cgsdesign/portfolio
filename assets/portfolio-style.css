@@ -99,7 +99,7 @@ header nav ul li:hover{
     justify-content: flex-end;
     align-items: flex-end; 
     height: 250px;
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
   }
 
   .hero-box {
@@ -248,6 +248,7 @@ section {
     /*hero*/
     .hero {
         height: 200px;
+        margin-bottom: 10px;
     }
     .hero-box {
         padding: 0 15% 0 0;
