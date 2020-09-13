@@ -42,7 +42,6 @@ h4 {
 }
 
 /*Header*/
-
 header {
     padding: 10px 5%;
     display: flex;
@@ -73,7 +72,7 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 0 10px;
+    margin: 0 14px;
     padding:5px 10px;
     font-size: 18px;
     border: 2px solid whitesmoke;
@@ -82,10 +81,9 @@ header nav ul li {
 }
 
 header nav ul li:hover{
-    margin: 0 30px;
     background-color: var(--orange);
     border: 2px solid var(--orange);
-    border-radius: 20px;
+
   }
 /*end header*/
 
@@ -121,6 +119,7 @@ header nav ul li:hover{
 
 /*main body start*/
 
+/*About*/
 section {
     display:flex;
     flex-wrap: wrap;
@@ -139,7 +138,6 @@ section {
 }
 
 /*Works*/
-
 .works-grid-container {
     margin: 0 auto;
     display: grid;
@@ -209,6 +207,10 @@ section {
   .works-grid-item .title h3{
     font-size:18px;
   }
+/*main body end*/
+
+/*footer start*/
+
 
 /* mediaqueries by size */
 @media screen and (max-width: 980px) {
@@ -216,20 +218,20 @@ section {
     .hero {
         margin-bottom: 10px;
         height: 200px;
-      }
-      .hero-box {
+    }
+    .hero-box {
         margin: 50px 0 0 0;
         padding: 0 15% 0 0;
-      }
+    }
 
     .center {
         padding:0px 20px 0 0;
     }
+
     /*main body*/
     .center {
-        padding:0 0px;
+        padding:0px 20px 0 0;
     }
-
     .side-header {     
         border-bottom: var(--orange) 2px solid;
         padding-right: 0;
@@ -252,13 +254,20 @@ section {
         text-align: center;
         justify-content: center;
     }
+    header nav ul li{
+        padding:0 5px;
+        font-size: 12px;
+    }
+    .center {
+        padding:0 0px;
+    }
     .works-grid-container {
         max-width: auto;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 100px);
-      }
+    }
     .mainbox {
         grid-column: 1/3; 
         grid-row: 1/3; 
-      }
+    }
 }
