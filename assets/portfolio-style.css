@@ -107,6 +107,7 @@ header nav ul li:hover{
     font-family: 'Open Sans', 'Gill Sans', sans-serif;
     display: flex;
   }
+
   .hero-box .inner {
       display:inline;
       margin:auto;
@@ -116,16 +117,13 @@ header nav ul li:hover{
 /*hero style end*/
 
 /*main body start*/
-.center {
-    padding:0 5%;
 
-}
 section {
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 20px 0;
 }
-
 .side-header {     
     padding-right: 10px;
     flex:1;
@@ -191,41 +189,51 @@ section {
 
 /* mediaqueries by size */
 @media screen and (max-width: 980px) {
-   
     /*hero*/
     .hero {
         margin-bottom: 10px;
-        height: 250px;
+        height: 200px;
       }
       .hero-box {
-        margin: 100px 0 0 0;
+        margin: 50px 0 0 0;
         padding: 0 15% 0 0;
       }
 
     .center {
-        padding:0 10px;
+        padding:0px 20px 0 0;
     }
     /*main body*/
 
     .side-header {     
         border-bottom: var(--orange) 2px solid;
-        padding-right: 10px;
+        padding-right: 0;
+        justify-content: left;
         flex:0 50%;
-        justify-content: center;
         text-align:center;
-        width: 100%;
     }
     .content {
         border-left: none;
-        padding: 20px 20px;
+        padding: 20px;
         flex: 0 90%;
-        width: 100%;
     }
+    .side-header {     
+        padding-right: 0px;
+        justify-content: flex-start;
+    }
+
 }
 
 
-  @media screen and (max-width: 768px) {
-  }
+  @media screen and (max-width: 575px) {
+    header {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .side-header {
+        justify-content: center;
+    }
+    }
 
   @media screen and (max-width: 575px) {
   }
