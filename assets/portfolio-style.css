@@ -156,7 +156,7 @@ section {
     color: black;
     display: flex;
     opacity: 1;
-    border: solid 2px #dedede;
+    border: solid 2px #d8d8d8;
   }
 
   .works-grid-item:hover{
