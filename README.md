@@ -1,12 +1,11 @@
-# Portfolio Challenge - Week 2
+# Portfolio
 ​
-## Creating a Clear and Responsive Personal Portfolio
 
 ### Live site at [CG Sibley Design](https://cgsdesign.github.io/portfolio/)
 ### Code at [CG Sibley Design Github](https://github.com/cgsdesign/portfolio)
 ​
 ​For this project I created a personal webpage for my portfolio. The goal was to create a clear and concise page to describe me, show my work, and allow others to contact me.
-The branding follows my personal print collateral. The page is designed to be fully responsive and intuitive in order to bring in recruiters and future employers.​
+The branding follows my personal print collateral. Please Enjoy!
 
 ## Key Features
 * responsive design optimized for a wide variety of phones and tablets
