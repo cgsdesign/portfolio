@@ -168,26 +168,26 @@ section {
   .mainbox {
     grid-column: 1/3; 
     grid-row: 1/3; 
-    background-image: url('../assets/images/Horiseon.png');
+    background-image: url('../assets/images/DnDMaps.png');
     background-size: cover;
     background-position: top;
   }
 
   .box2 {
-    background-image: url('../assets/images/RunBuddy.png');
+    background-image: url('../assets/images/DnD.png');
     background-size: cover;
     background-position: top;
   }
 
   .box3 {
-    background-image: url('../assets/images/CGSDesign.png');
+    background-image: url('../assets/images/WeatherDash.png');
     background-size: cover;
     background-position: top;
 
   }
 
   .box4 {
-    background-image: url('../assets/images/CGSDesign.png');
+    background-image: url('../assets/images/Horiseon.png');
     background-size: cover;
     background-position: top;
     
